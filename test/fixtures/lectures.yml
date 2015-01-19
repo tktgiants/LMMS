@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  teacher: MyString
+  number: 1
+  begin_year: MyString
+  begin_term: 1
+  grade: 1
+  materials_path: MyString
+
+two:
+  name: MyString
+  teacher: MyString
+  number: 1
+  begin_year: MyString
+  begin_term: 1
+  grade: 1
+  materials_path: MyString
