@@ -1,39 +1,35 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>講義名:</strong>
   <%= @lecture.name %>
 </p>
 
 <p>
-  <strong>Teacher:</strong>
+  <strong>担当教員名:</strong>
   <%= @lecture.teacher %>
 </p>
 
 <p>
-  <strong>Number:</strong>
+  <strong>講義週:</strong>
   <%= @lecture.number %>
 </p>
 
 <p>
-  <strong>Begin year:</strong>
+  <strong>開講年:</strong>
   <%= @lecture.begin_year %>
 </p>
 
 <p>
-  <strong>Begin term:</strong>
+  <strong>開講時期:</strong>
   <%= @lecture.begin_term %>
 </p>
 
 <p>
-  <strong>Grade:</strong>
+  <strong>対象学年:</strong>
   <%= @lecture.grade %>
 </p>
 
-<p>
-  <strong>Materials path:</strong>
-  <%= @lecture.materials_path %>
-</p>
 
 <%= link_to 'Edit', edit_lecture_path(@lecture) %> |
 <%= link_to 'Back', lectures_path %>
